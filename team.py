@@ -17,3 +17,15 @@ class Team:
 player1 = Team("paok",["george",'bill'],"nick")
 
 print(player1.has_player("george"))
+
+
+# --------------------
+# |   Team |         |
+# --------------------
+# |   name = str     |
+# |   players = list |
+# |   coach = str    |
+# --------------------
+# |   add_player()   |
+# |   has_player()   |
+# --------------------

@@ -14,3 +14,13 @@ person1 = Student("george",'e65')
 
 print(person1.say_favourite_language("Python"))
 
+
+# ---------------------------
+# |   Student               |
+# ---------------------------
+# |   players = list        |
+# |   cohoart = str         |
+# --------------------------
+# |   talk()                |
+# |say_favourite_language() |
+# ---------------------------
