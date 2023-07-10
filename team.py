@@ -25,13 +25,16 @@ player1 = Team("paok",["george",'bill'],"nick")
 print(player1.has_player("george"))
 
 
-# --------------------
-# |   Team |         |
-# --------------------
-# |   name = str     |
-# |   players = list |
-# |   coach = str    |
-# --------------------
-# |   add_player()   |
-# |   has_player()   |
-# --------------------
+# ---------------------
+# |   Team            |
+# ---------------------
+# |   name = str      |
+# |   players = list  |
+# |   coach = str     |
+# ---------------------
+# |add_player(name)   |
+# |play_game(result)  |
+# | True / False      |
+# |has_player(name)   |
+# | True / False      |
+# ---------------------
