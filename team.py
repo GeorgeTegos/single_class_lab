@@ -2,7 +2,7 @@ class Team:
 
     def __init__(self,name,players,coach):
         self.name = name
-        self.players = list(players)
+        self.players = players
         self.coach = coach
         self.points = 0
 
@@ -16,13 +16,16 @@ class Team:
             return False
 
     def play_game(self,result):
-        if result == True:
+        if result == True or "won":
             self.points += 3
             
 
-player1 = Team("paok",["george",'bill'],"nick")
+player1 = Team("paok",["george","josh"],"nick")
 
 print(player1.has_player("george"))
+player1.add_player("bill")
+
+print(player1.players)
 
 
 # ---------------------
