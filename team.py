@@ -20,12 +20,12 @@ class Team:
             self.points += 3
             
 
-player1 = Team("paok",["george","josh"],"nick")
+# player1 = Team("paok",["george","josh"],"nick")
 
-print(player1.has_player("george"))
-player1.add_player("bill")
+# print(player1.has_player("george"))
+# player1.add_player("bill")
 
-print(player1.players)
+# print(player1.players)
 
 
 # ---------------------

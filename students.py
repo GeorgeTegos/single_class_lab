@@ -10,9 +10,9 @@ class Student:
     def say_favourite_language(self,option):
         return ("I love " +option)
     
-person1 = Student("george",'e65')
+# person1 = Student("george",'e65')
 
-print(person1.say_favourite_language("Python"))
+# print(person1.say_favourite_language("Python"))
 
 
 # ---------------------------------
